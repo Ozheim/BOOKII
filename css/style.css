@@ -145,19 +145,19 @@ header{
 .menu1{
     padding-top: 15px;
     display: flex;
-    gap: 68px;    
-}
-
-.menu:hover{
-    border-top: 2px solid #0065FC ;
-    color: #0065FC;    
-    
+    gap: 68px;        
 }
 
 .menu{
     margin-top: -15px;
     padding-top: 14px;
     padding-bottom: 0px;
+    border-top: 2px solid #fff;
+}
+
+.menu:hover{
+    border-top: 2px solid #0065FC ;
+    color: #0065FC; 
 }
 
 .div1 h1{
@@ -206,7 +206,7 @@ header{
     font-size: 1em;
 }
 
-#recherche{
+.rechercher{
     border-top:1px solid #F2F2F2 ;
     border-bottom: 1px solid #F2F2F2;
     border-left: none;
@@ -222,6 +222,7 @@ header{
     text-align: center;
     font-size: 1em;
     color: white;
+    cursor: pointer;
 }
 
 .gap{
@@ -252,19 +253,57 @@ header{
     margin-bottom: 0px;
 }
 
-.filter-tabs-list li{
-    display: inline-block;
-    border: 2px solid #D9D9D9;
-    border-radius: 25px;
-    padding: 8px;
-    font-weight: bold;       
+.filter-tabs-list{
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+
+    
 }
 
-.filter-tabs-list li:hover{
+.filter-tabs-list div{
+    display: flex;
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+    padding: 8px 16px;
+    font-weight: bold; 
+    margin-left:10px;
+    align-items: center;       
+}
+
+.filter-tabs-list div:hover{
     background-color: #DEEBFF;
 }
 
+
+
+.index{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px 15px;
+
+
+}
+.index span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    width: 24px;
+    border: 1px solid #D9D9D9;
+    border-radius: 50%;
+    
+}
+
+
+   
+
 /* Hebergement section*/ 
+
+.hebergements h2{
+    margin-top: 0;
+}
 
 .hebergements-card img{
     height: 60% ;
@@ -273,21 +312,26 @@ header{
     
 }
 
-.hebergements-card div {
+.hebergements-card .card {
     display:inline-block;
-    
     width: 30%;
     height: 27vh;
     flex-wrap: wrap;
-    margin-top: 2%;
-    margin-right: 1%;    
+    margin-top: 16px;
+    margin-right: 14px;  
+    margin-bottom: 10px;  
+}
+.hebergements-card-contents{
+    padding-left: 9px;
+    padding-top: 2px;
 }
 
 #bold{
     font-weight: 700;
+    font-size: 1.1em;
     display: flex;
     justify-content: flex-start;
-    margin-top: 15px;    
+    margin-top: 26px;    
 }
 
 
@@ -297,33 +341,46 @@ header{
 
 .card-title{
     margin:0;
-    margin-bottom:5px;
+    margin-bottom:10px;
 }
 
 /*************************** Activités Section***************************/
 
-.Activity-main{
+.activity-main{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    
-   
+    flex-wrap: nowrap; 
 }
 
 .small-card{
     background-color: white;
     width:33%;
     height: 439px ;
-    margin-left: 30px;
-    border: 1px solid white;
+    margin-right: 25px;
     border-radius: 20px;
     box-shadow: 1px 1px 1px 1px #0000001A  ; 
+    overflow: hidden;
+    
 }
 
-.Activity-main img{
+.activity-main img{
     width: 100%;
     height: 85%;
     position: relative;
+}
+
+.activity-main h3{
+    padding-left: 19px;
+    font-size: 1.1em;
+}
+
+#activity-title{
+    margin-bottom: 34px;
+    margin-top: 60px;
+}
+
+#activity-section{
+    margin-left: 25px;
 }
 
 
@@ -333,16 +390,19 @@ header{
     margin-top: 150px;
     display: flex;
     background-color: #F2F2F2;
-    justify-content: flex-start;  
+    justify-content: flex-start; 
+    margin-bottom: -8px ;
     
     
       
 }
 
 .footer-content{
+    width: 33%;
     display: flex;
     flex-direction: column;
-    
+    padding-top: 25px;
+    padding-left: 20px;   
 }
 
 
