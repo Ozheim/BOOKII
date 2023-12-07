@@ -577,8 +577,15 @@ header {
         text-align: center;
     }
 
+    .menu2:hover{
+        border-top: none;
+        border-bottom:2px solid #0065FC;
+        padding-bottom: 19px;
+        width: 100%;
+    }
+
     .menu:hover{
-        border-bottom:2px solid #F2F2F2;
+        border-bottom:2px solid #0065FC;
         padding-bottom: 19px;
 
     }
