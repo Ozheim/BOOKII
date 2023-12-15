@@ -679,10 +679,12 @@ header {
         width: 90%;
         margin-right: 0;
         margin-bottom: 20px;
+        height: auto;
     }
 
     .hebergements-card img {
         object-fit: cover;
+        height: 124px;
     }
 
     /**************Activity*************/
