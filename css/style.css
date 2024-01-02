@@ -147,13 +147,13 @@ header {
 }
 
 .menu1 {
-    padding-top: 15px;
+    padding-top: 22px;
     display: flex;
     gap: 68px;
 }
 
 .menu {
-    margin-top: -15px;
+    margin-top: -14px;
     padding-top: 14px;
     padding-bottom: 0px;
     border-top: 2px solid #fff;
@@ -165,7 +165,7 @@ header {
     color: #0065FC;
 }
 .menu2{
-    margin-top: -15px;
+    margin-top: -14px;
     padding-top: 14px;
     padding-bottom: 0px;
     border-top: 2px solid #fff;
@@ -213,7 +213,7 @@ header {
     padding-left: 2px;
     padding-bottom: 14px;
     padding-right: 2px;
-    background-color: none;
+    background-color: white;
     font-weight: bold;
     text-align: center;
     font-size: 1em;
@@ -426,6 +426,11 @@ header {
     background-color: #F2F2F2;
     justify-content: flex-start;
     margin-bottom: -8px;
+    
+}
+
+.footer-content a{
+    margin-bottom: 10px;
 }
 
 .footer-content {
